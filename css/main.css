@@ -1572,6 +1572,9 @@ img {
     /* esg */
     #esg {
         height: 100dvh;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
     }
 
     /* news */
@@ -1979,4 +1982,5 @@ img {
     #footer .corp-info .copy-right-mo {
         font-size: 0.9rem;
     }
+
 }
