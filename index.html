@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신풍제약주식회사</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Average+Sans&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+</head>
+
+<body>
+    <div id="wrap" class="index">
+        <!-- floating buttons -->
+        <div class="floating-btns">
+            <a href="http://pf.kakao.com/_xghjUn/chat" class="kakao-btn kakao-chatbot-icon">
+                <i class="ri-kakao-talk-fill kakao-chatbot-icon"></i>
+            </a>
+
+            <button class="top-btn" id="topBtn" aria-label="상단으로 이동">
+                <i class="ri-arrow-up-line top-icon"></i>
+            </button>
+        </div>
+
+        <!-- header -->
+        <header id="header">
+            <div class="container">
+                <h1><a href="#"><span class="blind">신풍제약주식회사</span></a></h1>
+                <nav id="gnb">
+                    <ul class="dep1">
+                        <li>
+                            <a href="#">기업정보</a>
+                            <ul class="dep2">
+                                <li><a href="#">경영이념</a></li>
+                                <li><a href="#">VISION</a></li>
+                                <li><a href="#">CEO 인사말</a></li>
+                                <li><a href="#">연혁</a></li>
+                                <li><a href="#">CI</a></li>
+                                <li><a href="#">조직도</a></li>
+                                <li><a href="#">생산시설</a></li>
+                                <li><a href="#">전국영업망</a></li>
+                                <li><a href="#">찾아오시는길</a></li>
+                                <li><a href="#">GLOBAL 신풍</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">제품정보</a>
+                            <ul class="dep2">
+                                <li><a href="#">신제품</a></li>
+                                <li><a href="#">전문의약품</a></li>
+                                <li><a href="#">일반의약품</a></li>
+                                <li><a href="#">의료기기</a></li>
+                                <li><a href="#">건강기능식품</a></li>
+                                <li><a href="#">자체원료합성제품</a></li>
+                                <li><a href="#">제품소식</a></li>
+                                <li><a href="#">의약품 재평가</a></li>
+                                <li><a href="#">의약품 안정성평가</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">R & D</a>
+                            <ul class="dep2">
+                                <li><a href="#">R & D 스토리</a></li>
+                                <li><a href="#">APls & Products</a></li>
+                                <li><a href="#">파이프라인</a></li>
+                                <li><a href="#">Partnership</a></li>
+                                <li><a href="#">Platform</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">ESG</a>
+                            <ul class="dep2">
+                                <li><a href="#">환경경영</a></li>
+                                <li><a href="#">윤리경영</a></li>
+                                <li><a href="#">안전보건경영</a></li>
+                                <li><a href="#">인적자원관리</a></li>
+                                <li><a href="#">기업지배구조</a></li>
+                                <li><a href="#">사회공헌</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">IR</a>
+                            <ul class="dep2">
+                                <li><a href="#">주식정보</a></li>
+                                <li><a href="#">재무정보</a></li>
+                                <li><a href="#">공시정보</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">PR</a>
+                            <ul class="dep2">
+                                <li><a href="#">신풍소식</a></li>
+                                <li><a href="#">수상실적</a></li>
+                                <li><a href="#">신풍PR</a></li>
+                                <li><a href="#">신풍역사관</a></li>
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">건강정보</a></li>
+                                <li><a href="#">고객의 소리</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-util">
+                    <div class="lang">
+                        <button>
+                            <i class="ri-global-line"><span class="blind">언어선택</span></i>
+                        </button>
+                        <ul>
+                            <li><a href="#">KOR</a></li>
+                            <li><a href="#">ENG</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="search">
+                        <button>
+                            <i class="ri-search-line"></i>
+                            <span class="blind">검색창 열기</span>
+                        </button>
+                        <div class="search-box">
+                            <h2> 어떤 제품이 궁금하신가요?</h2>
+                            <form>
+                                <input type="text" placeholder="제품명을 검색해주세요.">
+                                <button type="submit">
+                                    <i class="ri-search-line"></i>
+                                    <span class="blind">검색하기</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="all-menu-wrap">
+                        <button class="menu-bar-open">
+                            <i class="ri-menu-3-line"></i>
+                            <span class="blind">전체메뉴보기</span>
+                        </button>
+                        <div class="all-menu-pop">
+                            <button class="menu-bar-close">
+                                <i class="ri-close-line"></i>
+                                <span class="blind">전체메뉴닫기</span>
+                            </button>
+                            <div class="all-menu-list">
+                                <ul class="dep1">
+                                    <li>
+                                        <a href="#">기업정보</a>
+                                        <ul class="dep2">
+                                            <li><a href="#">경영이념</a></li>
+                                            <li><a href="#">VISION</a></li>
+                                            <li><a href="#">CEO 인사말</a></li>
+                                            <li><a href="#">연혁</a></li>
+                                            <li><a href="#">CI</a></li>
+                                            <li><a href="#">조직도</a></li>
+                                            <li><a href="#">생산시설</a></li>
+                                            <li><a href="#">전국영업망</a></li>
+                                            <li><a href="#">찾아오시는길</a></li>
+                                            <li><a href="#">GLOBAL 신풍</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">제품정보</a>
+                                        <ul class="dep2">
+                                            <li><a href="#">신제품</a></li>
+                                            <li><a href="#">전문의약품</a></li>
+                                            <li><a href="#">일반의약품</a></li>
+                                            <li><a href="#">의료기기</a></li>
+                                            <li><a href="#">건강기능식품</a></li>
+                                            <li><a href="#">자체원료합성제품</a></li>
+                                            <li><a href="#">제품소식</a></li>
+                                            <li><a href="#">의약품 재평가</a></li>
+                                            <li><a href="#">의약품 안정성평가</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">R & D</a>
+                                        <ul class="dep2">
+                                            <li><a href="#">R & D 스토리</a></li>
+                                            <li><a href="#">APls & Products</a></li>
+                                            <li><a href="#">파이프라인</a></li>
+                                            <li><a href="#">Partnership</a></li>
+                                            <li><a href="#">Platform</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="#">ESG</a>
+                                        <ul class="dep2">
+                                            <li><a href="#">환경경영</a></li>
+                                            <li><a href="#">윤리경영</a></li>
+                                            <li><a href="#">안전보건경영</a></li>
+                                            <li><a href="#">인적자원관리</a></li>
+                                            <li><a href="#">기업지배구조</a></li>
+                                            <li><a href="#">사회공헌</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">IR</a>
+                                        <ul class="dep2">
+                                            <li><a href="#">주식정보</a></li>
+                                            <li><a href="#">재무정보</a></li>
+                                            <li><a href="#">공시정보</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">PR</a>
+                                        <ul class="dep2">
+                                            <li><a href="#">신풍소식</a></li>
+                                            <li><a href="#">수상실적</a></li>
+                                            <li><a href="#">신풍PR</a></li>
+                                            <li><a href="#">신풍역사관</a></li>
+                                            <li><a href="#">공지사항</a></li>
+                                            <li><a href="#">FAQ</a></li>
+                                            <li><a href="#">건강정보</a></li>
+                                            <li><a href="#">고객의 소리</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="main">
+            <!--main-visual-->
+            <section id="main-visual">
+                <div class="main-swiper swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/main-visual1.png" alt="신풍제약 메인 비주얼 - 건강관련 자연 풍경 사진">
+                            <div class="main-txt1">
+                                <div class="eng-txt">
+                                    <div class="txt-box1">
+                                        <p>For</p>
+                                        <p>Of</p>
+                                    </div>
+                                    <div class="txt-box2">
+                                        <p>The</p>
+                                        <p>The</p>
+                                    </div>
+                                    <div class="txt-box3">
+                                        <strong>HEALTH</strong>
+                                        <strong>PEOPLE</strong>
+                                    </div>
+                                </div>
+                                <p class="kor-txt">민족의 슬기와 긍지로 인류의 건강한 미래를 지향합니다.</p>
+                                <div class="main-pagination">
+                                    <div class="progress-bar">
+                                        <div class="bar"></div>
+                                    </div>
+                                    <div class="page-info">
+                                        <span class="current">01</span> / <span class="total">03</span>
+                                        <button class="btn_play active"><i class="ri-play-fill"></i></button>
+                                        <button class="btn_pause"><i class="ri-pause-fill"></i></button>
+                                        <button class="btn_prev"><i class="ri-arrow-left-line"></i></button>
+                                        <button class="btn_next"><i class="ri-arrow-right-line"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/main-visual2.png" alt="신풍제약 메인 비주얼2 - 의약품 세계화 관련 지구 사진">
+                            <div class="main-txt2">
+                                <div class="eng-txt">
+                                    <p>SINGPONG</p>
+                                    <strong>IN THE WORLD</strong>
+                                </div>
+                                <p class="kor-txt">국산의약품의 세계화를 위해 글로벌 개발 성공과 신약개발에 대한 끊임 없는 노력을 하고 있습니다.<br>민족의 슬기와 긍지로 인류의 건강한 미래를 지향합니다.</p>
+                                <div class="main-pagination">
+                                    <div class="progress-bar">
+                                        <div class="bar"></div>
+                                    </div>
+                                    <div class="page-info">
+                                        <span class="current">02</span> / <span class="total">03</span>
+                                        <button class="btn_play active"><i class="ri-play-fill"></i></button>
+                                        <button class="btn_pause"><i class="ri-pause-fill"></i></button>
+                                        <button class="btn_prev"><i class="ri-arrow-left-line"></i></button>
+                                        <button class="btn_next"><i class="ri-arrow-right-line"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/main-visual3.png" alt="신풍제약 메인 비주얼 3 - 우수의약품 관련 세포(유전자) 사진">
+                            <div class="main-txt3">
+                                <div class="eng-txt">
+                                    <div class="txt-box1">
+                                        <strong>PRODUCTION</strong>
+                                        <p>Of</p>
+                                    </div>
+                                    <div class="txt-box2">
+                                        <p>Excellent</p>
+                                        <strong>MEDICINES</strong>
+                                    </div>
+                                </div>
+                                <p class="kor-txt">최첨단 생산설비시설로 양질의 우수의약품 생산 공급에 정진하고 있습니다.</p>
+                                <div class="main-pagination">
+                                    <div class="progress-bar">
+                                        <div class="bar"></div>
+                                    </div>
+                                    <div class="page-info">
+                                        <span class="current">03</span> / <span class="total">03</span>
+                                        <button class="btn_play active"><i class="ri-play-fill"></i></button>
+                                        <button class="btn_pause"><i class="ri-pause-fill"></i></button>
+                                        <button class="btn_prev"><i class="ri-arrow-left-line"></i></button>
+                                        <button class="btn_next"><i class="ri-arrow-right-line"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--section1-r&d-story-->
+            <section id="rnd-story">
+                <div class="rnd-title">
+                    <hgroup>
+                        <h2>R & D STORY</h2>
+                    </hgroup>
+                    <a href="#">
+                        <img src="./img/icon/view-more-icon.svg" alt="더보기 아이콘">
+                    </a>
+                </div>
+                
+                <div class="content">
+                    <div class="box1 box">
+                        <div class="img-box">
+                            <div class="color-box"></div>
+                            <img src="./img/r&d-story-img1.jpg" alt="구충제(약품사진)">
+                        </div>
+                        <div class="txt-box">
+                            <strong>구충제</strong>
+                            <p>Anthelmintic</p>
+                            <div class="hover-content">
+                                <p>
+                                    메벤다졸 이하 여러 구충제 개발,<br>세계 2번째 프라지퀸텔<br>합성 대량생산 및 제조방법 개발
+                                </p>
+                                <a href="#" class="view-more-icon">
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2 box">
+                        <div class="img-box">
+                            <div class="color-box"></div>
+                            <img src="./img/r&d-story-img2.jpg" alt="원료의약품(약품사진)">
+                        </div>
+                        <div class="txt-box">
+                            <strong>원료의약품</strong>
+                            <p>API</p>
+                            <div class="hover-content">
+                                <p>
+                                    록소프로펜 소듐, 독시플루리딘<br>세계 2번째, 국내 최초 원료 합성 대량생산 성공<br> 및 글로벌 원료의약품 대량생산 성공
+                                </p>
+                                <a href="#" class="view-more-icon">
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box3 box">
+                        <div class="img-box">
+                            <div class="color-box"></div>
+                            <img src="./img/r&d-story-img3.jpg" alt="항생제(약품사진)">
+                        </div>
+                        <div class="txt-box">
+                            <strong>항생제</strong>
+                            <p>Antibiotics</p>
+                            <div class="hover-content">
+                                <p>
+                                    항생제 개발 전략으로<br>
+                                    주요 항생제 합성 대량생산 및 완제품을 완성,<br>
+                                    세파계 항생제 전용공장을 설립
+                                </p>
+                                <a href="#" class="view-more-icon">
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box4 box">
+                        <div class="img-box">
+                            <div class="color-box"></div>
+                            <img src="./img/r&d-story-img4.jpg" alt="개량신약(현미경사진)">
+                        </div>
+                        <div class="txt-box">
+                            <strong>개량신약</strong>
+                            <p>IMD</p>
+                            <div class="hover-content">
+                                <p>
+                                    우수한 효과, 부작용 감소 및<br>복약편의성 등 개선된 칸데암로정+ 암로디핀,<br>에제로수정 + 로수바스타틴 개발
+                                </p>
+                                <a href="#" class="view-more-icon">
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box5 box">
+                        <div class="img-box">
+                            <div class="color-box"></div>
+                            <img src="./img/r&d-story-img5.jpg" alt="피라맥스(약품사진)">
+                        </div>
+                        <div class="txt-box">
+                            <strong>피라맥스</strong>
+                            <p>Pyramax</p>
+                            <div class="hover-content">
+                                <p>
+                                    MMV와 협력으로 EMA 등록,<br>우수한 효과와 복용법의 장점 등<br>항말라리아제 개발 역사에 기여
+                                </p>
+                                <a href="#" class="view-more-icon">
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+
+            <!--section2-product-->
+            <section id="product">
+                <div class="container">
+                    <div class="product-content">
+                        <div class="product-box">
+                            <hgroup>
+                                <h2>PRODUCT</h2>
+                            </hgroup>
+                            <form class="search-menu">
+                                <fieldset>
+                                    <input type="text" placeholder="제품명을 검색하세요.">
+                                    <button type="submit"><i class="ri-search-line"></i><span class="blind">검색</span></button>
+                                </fieldset>
+                                <ul class="tag-box">
+                                    <li><a href="#">#신제품</a></li>
+                                    <li><a href="#">#일반의약품</a></li>
+                                    <li><a href="#">#전문의약품</a></li>
+                                    <li><a href="#">#의료기기</a></li>
+                                    <li><a href="#">#건강기능식품</a></li>
+                                    <li><a href="#">#자체원료합성제품</a></li>
+                                </ul>
+                            </form>
+
+                            <div class="product-pagination">
+                            <div class="progress-bar">
+                                <div class="bar"></div>
+                            </div>
+                            <div class="page-info">
+                                <span class="current">01</span> / <span class="total">10</span>
+                                <button class="btn_play"><i class="ri-play-fill"></i></button>
+                                <button class="btn_stop"><i class="ri-pause-line"></i></button>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper product-swiper">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="https://shinpoong.co.kr/sub2/2_1.php?p_idx=343&cate=0001_&mode=view" class="product-card">
+                                <img src="./img/product_img_1.jpg" alt="하이징코정">
+                                <p class="title">하이징코정</p>
+                                <p class="subtitle">순환계용약</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://shinpoong.co.kr/sub2/2_1.php?p_idx=339&cate=0067_&mode=view" class="product-card">
+                                    <img src="./img/product_img_2.jpg" alt="탐스로날서방정">
+                                    <p class="title">탐스로날서방정</p>
+                                    <p class="subtitle">기타의 비뇨생식기관 및 항문용약</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://shinpoong.co.kr/sub2/2_1.php?p_idx=330&cate=0067_&mode=view" class="product-card">
+                                    <img src="./img/product_img_3.jpg" alt="리나클로틴정">
+                                    <p class="title">리나루틴정</p>
+                                    <p class="subtitle">당뇨병용제</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://shinpoong.co.kr/sub2/2_2.php?p_idx=340&cate=0067_0090_&mode=view" class="product-card">
+                                    <img src="./img/product_img_4.jpg" alt="가모시드에스알정">
+                                    <p class="title">가모시드에스알정</p>
+                                    <p class="subtitle">소화기용제</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://shinpoong.co.kr/sub2/2_2.php?p_idx=323&cate=0067_0090_&mode=view" class="product-card">
+                                    <img src="./img/product_img_5.jpg" alt="록사겐서방정">
+                                    <p class="title">록사겐서방정</p>
+                                    <p class="subtitle">소화기용</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://shinpoong.co.kr/sub2/2_1.php?p_idx=318&cate=0067_0069_&mode=view" class="product-card">
+                                    <img src="./img/product_img_6.jpg" alt="에제로수정">
+                                    <p class="title">에제로수정</p>
+                                    <p class="subtitle">동맥경화용제</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://shinpoong.co.kr/sub2/2_2.php?p_idx=322&cate=0067_&mode=view" class="product-card">
+                                    <img src="./img/product_img_7.jpg" alt="베프서방정">
+                                    <p class="title">베프서방정</p>
+                                    <p class="subtitle">당뇨병용제</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://shinpoong.co.kr/sub2/2_2.php?p_idx=314&cate=0067_&mode=view" class="product-card">
+                                    <img src="./img/product_img_8.jpg" alt="피마디핀정">
+                                    <p class="title">피마디핀정</p>
+                                    <p class="subtitle">혈압강하제</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://shinpoong.co.kr/sub2/2_2.php?p_idx=306&cate=0067_&mode=view" class="product-card">
+                                    <img src="./img/product_img_9.jpg" alt="다이비스엑스알정">
+                                    <p class="title">다이비스엑스알정</p>
+                                    <p class="subtitle">순환기용제 당뇨병치료제</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://shinpoong.co.kr/sub2/2_2.php?p_idx=294&cate=0067_&mode=view" class="product-card">
+                                    <img src="./img/product_img_10.jpg" alt="베프정">
+                                    <p class="title">베프정</p>
+                                    <p class="subtitle">항히스타민제</p>
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="esg">
+                <div class="container">
+                    <h2>ESG</h2>
+                    <strong>사람과 신뢰, 그리고 미래를 위한 ESG 경영</strong>
+                    <div class="esg-content">
+                        <div class="esg-txt-environment">
+                            <p>신풍제약은 환경경영시스템을 체계적으로 구축하고 이를 실행함으로써<br>신뢰받는 기업이 되기 위하여 환경경영방침을 제정하여 시행하고 있습니다.</p>
+                        </div>
+                        <div class="esg-txt-social">
+                            <p>신풍제약은 지역사회와의 상생을 중요한 경영 원칙으로 삼고,<br>지속 가능한 사회공헌을 실천하고 있습니다.</p>
+                        </div>
+                        <div class="esg-txt-governance">
+                            <p>신풍제약은 개인과 회사가 함께 지속적인 성장을 이루기 위해<br>투명하고 공정한 가치를 추구하며 사회적 책임을 만들어가고 있습니다.</p>
+                        </div>
+
+                        <ul class="esg-icon">
+                            <li>
+                                <a href="#"><img src="./img/icon/esg-icon-1.png" alt="환경아이콘이미지"></a>
+                                <p>Environment</p>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./img/icon/esg-icon-2.png" alt="사회아이콘이미지"></a>
+                                <p>Social</p>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./img/icon/esg-icon-3.png" alt="지배구조아이콘이미지"></a>
+                                <p>Governance</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!---section4-news--->
+            <section id="news">
+                <div class="container">
+                    <hgroup>
+                        <h2>NEWS</h2>
+                    </hgroup>
+
+                    <div class="tab-box">
+                        <div class="news-btn">
+                            <div class="tab-btn">
+                                <button class="active">뉴스</button>
+                                <button>공지사항</button>
+                                <button>공시정보</button>
+                            </div>
+                            <a href="#">
+                                <img src="./img/icon/view-more-icon.svg" alt="더보기 아이콘">
+                            </a>
+                        </div>
+
+                        <div class="tab-contents">
+                            <div class="cont-box news-tab active">
+                                <h3 class="blind">뉴스</h3>
+                                <ul class="tab-list">
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">11</span>
+                                                <span class="year">25.09.11</span>
+                                            </div>
+                                            <p>신풍제약, ‘한마음 걷기 캠페인’으로 마련한 후원금 안산빈센트 의원 전달</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">22</span>
+                                                <span class="year">25.06.22</span>
+                                            </div>
+                                            <p>신풍제약, 피라맥스 '코로나·MERS' 등 RNA 바이러스 치료 유럽 특허 취득</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">18</span>
+                                                <span class="year">25.06.18</span>
+                                            </div>
+                                            <p>[주식] 신풍제약, 이틀연속 상한가...우선주도 동반 급등</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">16</span>
+                                                <span class="year">25.06.16</span>
+                                            </div>
+                                            <p>신풍제약, '피라맥스' 코로나19 관련 유럽특허 획득</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">03</span>
+                                                <span class="year">25.03.03</span>
+                                            </div>
+                                            <p>신풍제약, 피라맥스 필리핀 임상 추진...환자 모집 개시</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="cont-box notice-tab">
+                                <h3 class="blind">공지사항</h3>
+                                <ul class="tab-list">
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">11</span>
+                                                <span class="year">23.09.11</span>
+                                            </div>
+                                            <p>COVID-19 치료제 피라맥스정의 임상 3상 시험 결과 관련</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">28</span>
+                                                <span class="year">22.09.28</span>
+                                            </div>
+                                            <p>의약품 회수에 관한 공표</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">08</span>
+                                                <span class="year">22.09.08</span>
+                                            </div>
+                                            <p>의약품 회수에 관한 공표</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">28</span>
+                                                <span class="year">21.12.28</span>
+                                            </div>
+                                            <p>의약품 회수에 관한 공표</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">09</span>
+                                                <span class="year">21.12.09</span>
+                                            </div>
+                                            <p>의약품 회수에 관한 공표</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="cont-box disclosure-tab">
+                                <h3 class="blind">공시정보</h3>
+                                <ul class="tab-list">
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">28</span>
+                                                <span class="year">25.07.28</span>
+                                            </div>
+                                            <p>단기과열종목(가격괴리율, 3거래일 단일가매매) 지정 연장(신풍제약우)</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">23</span>
+                                                <span class="year">25.07.23</span>
+                                            </div>
+                                            <p>단기과열종목(가격괴리율, 3거래일 단일가매매) 지정 연장(신풍제약우)</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">18</span>
+                                                <span class="year">25.07.18</span>
+                                            </div>
+                                            <p>단기과열종목(가격괴리율, 3거래일 단일가매매) 지정 연장(신풍제약우)</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">15</span>
+                                                <span class="year">25.07.15</span>
+                                            </div>
+                                            <p>단기과열종목(가격괴리율, 3거래일 단일가매매) 지정 연장(신풍제약우)</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="date">
+                                                <span class="day">10</span>
+                                                <span class="year">25.07.10</span>
+                                            </div>
+                                            <p>단기과열종목(가격괴리율, 3거래일 단일가매매) 지정 연장(신풍제약우)</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--footer-->
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-links">
+                    <div class="footer-menu">
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">이용약관</a>
+                        <a href="#">오시는길</a>
+                        <a href="#">고객지원</a>
+                    </div>
+                    <div class="footer-sns">
+                        <a href="#" target="_blank">
+                            <span class="blind">instagram</span>
+                        </a>
+                        <a href="#" target="_blank">
+                            <span class="blind">youtube</span>
+                        </a>
+                        <a href="#" target="_blank">
+                            <span class="blind">facebook</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="corp-info">
+                    <div class="footer-content">
+                        <a a href="#" class="footer-logo"><img src="./img/logo/국영문로고-w.png" alt="메인페이지로"></a>
+                        <div class="corp-info-txt">
+                            <p class="copy-right-mo">&copy;SHINPOONG.CO.,LTD ALL RIGHTS RESERVED.</p>
+                            <address>
+                                <div class="footer-address"><span>주소 ㅣ</span>서울특별시 강남구 역삼로 161(역삼동, 신풍제약 사옥)
+                                </div>
+                                <div><span>본사 ㅣ</span> 02-2189-3400</div>
+                                <div><span>공장 ㅣ</span> 031-491-6191</div>
+                            </address>
+                        </div>
+                    </div>
+                    <p class="copy-right-pc">&copy;SHINPOONG.CO.,LTD ALL RIGHTS RESERVED.</p>         
+                </div>
+            </div>
+        </footer>    
+    </div>
+
+    <!-- Java script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // floating btn
+            const topBtn = document.getElementById("topBtn");
+            if (topBtn) {
+                topBtn.addEventListener("click", () => {
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                });
+            }
+
+            // GNB
+            const gnbHeader = document.querySelector('#header');
+            const gnb = document.querySelector('#gnb');
+            const dep1Items = document.querySelectorAll('#gnb .dep1 > li');
+            const dep2Menus = document.querySelectorAll('#gnb .dep2');
+
+            if (gnbHeader && gnb && dep1Items.length > 0) {
+                let isOpen = false;
+                let closeTimer = null;
+
+                function openDropdown(targetItem = null) {
+                    clearTimeout(closeTimer);
+                    gnbHeader.classList.add('hover', 'scroll');
+                    isOpen = true;
+
+                    dep1Items.forEach(li => li.classList.remove('active'));
+                    if (targetItem) targetItem.classList.add('active');
+                }
+
+                function closeDropdown() {
+                    clearTimeout(closeTimer);
+                    closeTimer = setTimeout(() => {
+                        gnbHeader.classList.remove('hover');
+                        if (window.scrollY === 0) gnbHeader.classList.remove('scroll');
+                        dep1Items.forEach(li => li.classList.remove('active'));
+                        isOpen = false;
+                    }, 150);
+                }
+
+                dep1Items.forEach(li => {
+                    li.addEventListener('mouseenter', () => openDropdown(li));
+                });
+
+                [...dep1Items, ...dep2Menus, gnb].forEach(el => {
+                    el.addEventListener('mouseenter', () => clearTimeout(closeTimer));
+                });
+
+                gnbHeader.addEventListener('mouseleave', (e) => {
+                    const to = e.relatedTarget;
+                    if (!gnbHeader.contains(to)) closeDropdown();
+                });
+            }
+
+                        // Header scroll
+                        const header = document.querySelector('#header');
+            if (header) {
+                const searchBtn = header.querySelector('.search button');
+                const searchBox = header.querySelector('.search .search-box');
+        
+                if (searchBtn && searchBox) {
+                    searchBtn.addEventListener('click', () => {
+                        searchBox.classList.toggle('active');
+                        if (searchBox.classList.contains('active')) {
+                            header.classList.add('scroll');
+                        } else if (window.scrollY < header.offsetHeight) {
+                            header.classList.remove('scroll');
+                        }
+                    });
+                }
+
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY >= header.offsetHeight) {
+                        header.classList.add('scroll');
+                    } else {
+                        header.classList.remove('scroll');
+                    }
+                });
+            }
+
+            // Language toggle
+            const langWrap = document.querySelector('#header .header-util .lang');
+            if (langWrap) {
+                const langBtn = langWrap.querySelector('button');
+
+                if (langBtn) {
+                    langBtn.addEventListener('click', function (e) {
+                        e.stopPropagation();
+                        langWrap.classList.toggle('active');
+                    });
+
+                    document.addEventListener('click', function (e) {
+                        if (!langWrap.contains(e.target)) {
+                            langWrap.classList.remove('active');
+                        }
+                    });
+                }
+            }
+
+            // all menu
+            const menuOpen = document.querySelector('.menu-bar-open');
+            const menuClose = document.querySelector('.menu-bar-close');
+            const menuPop = document.querySelector('.all-menu-pop');
+        
+            if (menuOpen && menuPop) {
+                menuOpen.addEventListener('click', () => {
+                    menuPop.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                });
+            }
+        
+            if (menuClose && menuPop) {
+                menuClose.addEventListener('click', () => {
+                    menuPop.classList.remove('active');
+                    document.body.style.overflow = 'auto';
+                });
+            }
+        
+            if (menuPop) {
+                menuPop.addEventListener('click', (e) => {
+                    if (e.target === menuPop) {
+                        menuPop.classList.remove('active');
+                        document.body.style.overflow = 'auto';
+                    }
+                });
+        
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape' && menuPop.classList.contains('active')) {
+                        menuPop.classList.remove('active');
+                        document.body.style.overflow = 'auto';
+                    }
+                });
+            }
+        
+            // main-visual Swiper
+            const mainSwiperEl = document.querySelector("#main-visual .main-swiper");
+            if (mainSwiperEl) {
+                const mainSwiper = new Swiper("#main-visual .main-swiper", {
+                    loop: true,
+                    speed: 1000,
+                    autoplay: {
+                        delay: 4000,
+                        disableOnInteraction: false,
+                    },
+                    effect: "creative",
+                    creativeEffect: {
+                        prev: {
+                            shadow: true,
+                            translate: ["-20%", 0, -1],
+                        },
+                        next: {
+                            translate: ["100%", 0, 0],
+                        },
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    observer: true,
+                    observeParents: true,
+                    watchSlidesProgress: true,
+                    on: {
+                        init(swiper) {
+                            updateMainPagination(swiper);
+                        },
+                        slideChange(swiper) {
+                            updateMainPagination(swiper);
+                        },
+                    },
+                });
+        
+                document.querySelectorAll("#main-visual .main-swiper img").forEach(img => {
+                    img.style.willChange = "transform";
+                    img.style.transform = "translateZ(0)";
+                });
+        
+                function updateMainPagination(swiper) {
+                    const currentElements = document.querySelectorAll(".main-pagination .current");
+                    const barElements = document.querySelectorAll(".main-pagination .bar");
+        
+                    if (!currentElements.length || !barElements.length) {
+                        return;
+                    }
+        
+                    const totalSlides = swiper.slides.length;
+                    const realSlides = swiper.loopedSlides ? totalSlides - swiper.loopedSlides * 2 : totalSlides;
+                    const currentSlide = swiper.realIndex + 1;
+        
+                    currentElements.forEach((el) => {
+                        el.textContent = String(currentSlide).padStart(2, "0");
+                    });
+        
+                    barElements.forEach((bar) => {
+                        bar.classList.remove("animate");
+                        bar.style.width = "0%";
+                        requestAnimationFrame(() => {
+                            bar.classList.add("animate");
+                        });
+                    });
+                }
+        
+                function manageProgressAnimation(isPlaying) {
+                    const barElements = document.querySelectorAll(".main-pagination .bar");
+                    barElements.forEach((bar) => {
+                        if (isPlaying) {
+                            bar.classList.remove("animate");
+                            requestAnimationFrame(() => {
+                                bar.classList.add("animate");
+                            });
+                        } else {
+                            bar.classList.remove("animate");
+                            const computedStyle = window.getComputedStyle(bar);
+                            bar.style.width = computedStyle.width;
+                        }
+                    });
+                }
+        
+                const mainPlayBtns = document.querySelectorAll(".main-pagination .btn_play");
+                const mainPauseBtns = document.querySelectorAll(".main-pagination .btn_pause");
+                const mainPrevBtns = document.querySelectorAll(".main-pagination .btn_prev");
+                const mainNextBtns = document.querySelectorAll(".main-pagination .btn_next");
+        
+                function updateButtonStates(isPlaying) {
+                    mainPlayBtns.forEach((btn) => btn.classList.toggle("active", isPlaying));
+                    mainPauseBtns.forEach((btn) => btn.classList.toggle("active", !isPlaying));
+                }
+                updateButtonStates(true);
+        
+                mainPlayBtns.forEach((btn) => {
+                    btn.addEventListener("click", () => {
+                        mainSwiper.autoplay.start();
+                        updateButtonStates(true);
+                        manageProgressAnimation(true);
+                    });
+                });
+        
+                mainPauseBtns.forEach((btn) => {
+                    btn.addEventListener("click", () => {
+                        mainSwiper.autoplay.stop();
+                        updateButtonStates(false);
+                        manageProgressAnimation(false);
+                    });
+                });
+        
+                mainPrevBtns.forEach((btn) => {
+                    btn.addEventListener("click", () => {
+                        mainSwiper.slidePrev();
+                    });
+                });
+        
+                mainNextBtns.forEach((btn) => {
+                    btn.addEventListener("click", () => {
+                        mainSwiper.slideNext();
+                    });
+                });
+        
+                const menuOpenBtn = document.querySelector(".menu-bar-open");
+                const menuCloseBtn = document.querySelector(".menu-bar-close");
+        
+                if (menuOpenBtn) {
+                    menuOpenBtn.addEventListener("click", () => {
+                        mainSwiper.autoplay.stop();
+                    });
+                }
+        
+                if (menuCloseBtn) {
+                    menuCloseBtn.addEventListener("click", () => {
+                        setTimeout(() => {
+                            mainSwiper.update();
+                            mainSwiper.autoplay.start();
+                        }, 400);
+                    });
+                }
+            }
+        
+            // product-swiper
+            const productSwiperEl = document.querySelector(".product-swiper");
+            if (productSwiperEl) {
+                const productSwiper = new Swiper(".product-swiper", {
+                    loop: true,
+                    speed: 1000,
+                    slidesPerView: 'auto',
+                    spaceBetween: 20,
+                    centeredSlides: false,
+                    autoplay: {
+                        delay: 1500,
+                        disableOnInteraction: false,
+                    },
+                    on: {
+                        init: function () {
+                            updateProductPagination(this);
+                        },
+                        slideChange: function () {
+                            updateProductPagination(this);
+                        },
+                    },
+                });
+        
+                function updateProductPagination(swiper) {
+                    const currentElement = document.querySelector(".product-pagination .current");
+                    const totalElement = document.querySelector(".product-pagination .total");
+                    const barElement = document.querySelector(".product-pagination .bar");
+                    
+                    if (!currentElement || !totalElement || !barElement) {
+                        return;
+                    }
+        
+                    const totalSlides = swiper.slides.length;
+                    const realSlides = swiper.slides.filter(slide => !slide.classList.contains('swiper-slide-duplicate')).length;
+                    totalElement.textContent = String(realSlides).padStart(2, "0");
+                    const currentSlide = swiper.realIndex + 1;
+                    
+                    currentElement.textContent = String(currentSlide).padStart(2, "0");
+                    totalElement.textContent = String(realSlides).padStart(2, "0");
+                    
+                    const percent = (currentSlide / realSlides) * 100;
+                    barElement.style.width = `${percent}%`;
+                }
+        
+                const productPlayBtn = document.querySelector('.product-pagination .btn_play');
+                const productStopBtn = document.querySelector('.product-pagination .btn_stop');
+        
+                function updateProductButtonStates(isPlaying) {
+                    if (!productPlayBtn || !productStopBtn) return;
+        
+                    if (isPlaying) {
+                        productPlayBtn.classList.add('active');
+                        productStopBtn.classList.remove('active');
+                    } else {
+                        productPlayBtn.classList.remove('active');
+                        productStopBtn.classList.add('active');
+                    }
+                }
+        
+                updateProductButtonStates(true);
+        
+                if (productPlayBtn) {
+                    productPlayBtn.addEventListener('click', function () {
+                        productSwiper.autoplay.start();
+                        updateProductButtonStates(true);
+                    });
+                }
+        
+                if (productStopBtn) {
+                    productStopBtn.addEventListener('click', function () {
+                        productSwiper.autoplay.stop();
+                        updateProductButtonStates(false);
+                    });
+                }
+            }
+        
+            // ESG
+            const esgSection = document.querySelector('#esg');
+            if (esgSection) {
+                const esgContent = esgSection.querySelector('.esg-content');
+                
+                if (esgContent) {
+                    const txtBlocks = {
+                        environment: esgContent.querySelector('.esg-txt-environment'),
+                        social: esgContent.querySelector('.esg-txt-social'),
+                        governance: esgContent.querySelector('.esg-txt-governance'),
+                    };
+        
+                    const icons = esgContent.querySelectorAll('.esg-icon li');
+        
+                    const esgData = {
+                        environment: {
+                            bg: './img/ESG-Environment.png',
+                            text: "신풍제약은 환경경영시스템을 체계적으로 구축하고 이를 실행함으로써<br>신뢰받는 기업이 되기 위하여 환경경영방침을 제정하여 시행하고 있습니다."
+                        },
+                        social: {
+                            bg: './img/ESG-Social.png',
+                            text: "신풍제약은 지역사회와의 상생을 중요한 경영 원칙으로 삼고,<br>지속 가능한 사회공헌을 실천하고 있습니다."
+                        },
+                        governance: {
+                            bg: './img/ESG-Governance.png',
+                            text: "신풍제약은 개인과 회사가 함께 지속적인 성장을 이루기 위해<br>투명하고 공정한 가치를 추구하며 사회적 책임을 만들어가고 있습니다."
+                        }
+                    };
+        
+                    Object.values(esgData).forEach(({ bg }) => {
+                        const img = new Image();
+                        img.src = bg;
+                    });
+        
+                    let current = 'null';
+                    esgSection.style.backgroundImage = `url(${esgData.environment.bg})`;
+                    icons.forEach((icon) => icon.classList.remove('active'));
+                    Object.values(txtBlocks).forEach((txt) => {
+                        if (txt) txt.classList.remove('active');
+                    });
+        
+                    icons.forEach((icon) => {
+                        const link = icon.querySelector('a');
+                        const img = link ? link.querySelector('img') : null;
+                        
+                        if (img) {
+                            const original = img.getAttribute('src');
+                            const hover = original.replace('.png', '-green.png');
+        
+                            icon.addEventListener('mouseenter', () => img.src = hover);
+                            icon.addEventListener('mouseleave', () => {
+                                if (!icon.classList.contains('active')) img.src = original;
+                            });
+                        }
+                    });
+        
+                    icons.forEach((icon, idx) => {
+                        icon.addEventListener('click', e => {
+                            e.preventDefault();
+        
+                            const key = idx === 0 ? 'environment' : idx === 1 ? 'social' : 'governance';
+                            if (key === current) return;
+        
+                            Object.values(txtBlocks).forEach(el => {
+                                if (el) el.classList.remove('active');
+                            });
+        
+                            const target = txtBlocks[key];
+                            if (target) {
+                                const p = target.querySelector('p');
+                                if (p) p.innerHTML = esgData[key].text;
+                                target.classList.add('active');
+                            }
+        
+                            icons.forEach((i, iIdx) => {
+                                const link = i.querySelector('a');
+                                const img = link ? link.querySelector('img') : null;
+                                
+                                if (img) {
+                                    const src = img.getAttribute('src').replace('-green', '');
+                                    if (iIdx === idx) {
+                                        i.classList.add('active');
+                                        img.src = src.replace('.png', '-green.png');
+                                    } else {
+                                        i.classList.remove('active');
+                                        img.src = src;
+                                    }
+                                }
+                            });
+        
+                            const fadeLayer = document.createElement('div');
+                            fadeLayer.classList.add('esg-bg-fade');
+                            fadeLayer.style.backgroundImage = `url(${esgData[key].bg})`;
+                            esgSection.appendChild(fadeLayer);
+                    
+                            fadeLayer.addEventListener('animationend', () => {
+                                esgSection.style.backgroundImage = `url(${esgData[key].bg})`;
+                                fadeLayer.remove();
+                            });
+                    
+                            current = key;
+                        });
+                    });
+                }
+            }
+        
+            // news-tab
+            const tabButtons = document.querySelectorAll('.tab-btn button');
+            const tabContents = document.querySelectorAll('.cont-box');
+            
+            if (tabButtons.length > 0 && tabContents.length > 0) {
+                function initTabs() {
+                    tabContents.forEach(content => {
+                        content.style.display = 'none';
+                        content.classList.remove('active');
+                    });
+                    
+                    tabButtons.forEach(button => {
+                        button.classList.remove('active');
+                    });
+                    
+                    tabButtons[0].classList.add('active');
+                    tabContents[0].style.display = 'block';
+                    tabContents[0].classList.add('active');
+                }
+                
+                function switchTab(targetIndex) {
+                    tabContents.forEach(content => {
+                        content.style.display = 'none';
+                        content.classList.remove('active');
+                    });
+                    
+                    tabButtons.forEach(button => {
+                        button.classList.remove('active');
+                    });
+                    
+                    if (tabButtons[targetIndex] && tabContents[targetIndex]) {
+                        tabButtons[targetIndex].classList.add('active');
+                        tabContents[targetIndex].style.display = 'block';
+                        tabContents[targetIndex].classList.add('active');
+                    }
+                }
+                
+                tabButtons.forEach((button, index) => {
+                    button.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        switchTab(index);
+                    });
+                });
+                
+                initTabs();
+            }
+        });
+    </script>
+</body>
+</html>
