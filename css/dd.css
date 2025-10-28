@@ -1,0 +1,119 @@
+/* 반응형 */
+@media (max-width:1199px) {
+  html {
+      font-size: 9px;
+  }
+  #header {
+      padding: 0 6rem;
+  }
+  #rnd-story, #product, #news {
+      padding: 0 6rem;
+  }
+}
+/* -------------------- 태블릿 (1023px 이하) -------------------- */
+@media (max-width: 1023px) {
+  html {
+  font-size: 8.5px;
+}
+#header {
+  padding: 0 4rem;
+}
+#gnb { display: none; } /* 상단 메뉴 감추고 햄버거 버튼 표시 */
+.menu-bar-open { display: block; }
+
+/* 섹션별 내부 여백 축소 */
+#rnd-story .container,
+#product .container,
+#news .container {
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* Floating 버튼 위치 수정 */
+.floating-btns {
+  bottom: 5rem;
+  right: 5rem;
+}
+}
+
+/* -------------------- 모바일 (767px 이하) -------------------- */
+@media (max-width: 767px) {
+  html {
+    font-size: 8px;
+  }
+  body {
+    font-size: 1.4rem;
+  }
+
+  #header {
+    padding: 0 2rem;
+    height: 8rem;
+  }
+
+  /* 로고 크기 축소 */
+  #header h1 a {
+    width: 14rem;
+    height: 2.2rem;
+    background-size: contain;
+  }
+
+  /* Floating 버튼 크기 조정 */
+  .floating-btns {
+    bottom: 3rem;
+    right: 3rem;
+    gap: 1rem;
+  }
+  .floating-btns .top-btn {
+    width: 5rem;
+    height: 5rem;
+  }
+  .floating-btns .kakao-btn {
+    width: 4rem;
+    height: 4rem;
+  }
+  .kakao-chatbot-icon {
+    font-size: 2.4rem;
+  }
+
+  /* main-visual 높이 축소 */
+  #main-visual {
+    height: 70vh;
+  }
+
+  /* R&D Story 이미지 높이 축소 */
+  #rnd-story .content .img-box {
+    height: 40rem;
+  }
+
+  /* footer */
+  #footer .container {
+    padding: 3rem 2rem;
+  }
+}
+
+/* -------------------- 작은 모바일 (480px 이하) -------------------- */
+@media (max-width: 480px) {
+  html {
+  font-size: 7.5px;
+  }
+  #header h1 a {
+  width: 12rem;
+  }
+
+  /* 버튼 더 작게 */
+  .floating-btns {
+  bottom: 2rem;
+  right: 2rem;
+  transform: scale(0.85);
+  }
+
+  /* 폰트 크기 최소화 */
+  h2 {
+  font-size: 4rem;
+  }
+  #footer .footer-menu {
+  flex-direction: column;
+  gap: 1.5rem;
+  }
+}

@@ -1,0 +1,19 @@
+/* @@@@@@@@@ 한글폰트 @@@@@@@@@*/
+/* Pretendard */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+/* font-family : 'Pretendard', 'SUIT Variable', sans-serif; */
+
+/* SUIT */
+@import url(https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css);
+/* font-family : 'SUIT Variable', sans-serif; */
+
+/* @@@@@@@@@ 영문 폰트@@@@@@@@@ */
+/* Montserrat */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Cormorant Garamond"; */
+/* font-family: "Average Sans", sans-serif; */
+/* font-family: "Cormorant Infant", serif; */
+
+/* 아이콘 */
+@import url(https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css);
